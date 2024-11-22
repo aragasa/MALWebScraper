@@ -15,7 +15,7 @@ def makeCSV():
 
 makeCSV()
 
-#schedule.every(10).seconds.do(getAnime)
+#schedule.every(90).days.do(makeCSV)
 
 #while True:
     #schedule.run_pending()
